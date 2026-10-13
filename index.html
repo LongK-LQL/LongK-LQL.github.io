@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qiuliang Liu</title>
+  <meta name="description" content="Qiuliang Liu, master's student at UCAS and the Institute of Physics, CAS. Research in disordered crystal structure prediction, physically constrained generative models, and AI for Science.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2310243c'/%3E%3Cpath d='M10 8v16h14' fill='none' stroke='%23ffffff' stroke-width='2.6' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-en="Skip to content" data-zh="跳转到正文">Skip to content</a>
+<main id="main">
+<header class="introduction"><div class="name-row"><h1><span data-en="Qiuliang Liu" data-zh="刘秋良">Qiuliang Liu</span><span class="alternate-name" data-en="刘秋良" data-zh="Qiuliang Liu">刘秋良</span></h1><button id="language-toggle" class="language-button" type="button" aria-label="切换到中文">中文</button></div>
+<p data-en="I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, CAS. My work spans occupancy-based representations, constrained flow matching, and scientific data infrastructure." data-zh="我是中国科学院大学人工智能专业硕士研究生，在中国科学院物理研究所开展研究。我的工作涵盖基于占据率的晶体表征、约束流匹配，以及科研数据平台建设。">I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, CAS. My work spans occupancy-based representations, constrained flow matching, and scientific data infrastructure.</p>
+<p data-en="My research focuses on AI for Science, particularly disordered crystal structure prediction and physically constrained generative models. I work on occupancy-based representations, marginal-constrained flow matching, and scientific data infrastructure." data-zh="我的研究方向是 AI for Science，主要关注无序晶体结构预测和物理约束下的生成模型，研究内容包括基于占据率的晶体表征、边际约束流匹配，以及科研数据平台建设。">My research focuses on AI for Science, particularly disordered crystal structure prediction and physically constrained generative models. I work on occupancy-based representations, marginal-constrained flow matching, and scientific data infrastructure.</p>
+<p class="quick-links"><a href="mailto:liuqiuliang24@mails.ucas.ac.cn">liuqiuliang24@mails.ucas.ac.cn</a><span aria-hidden="true"> / </span><a href="mailto:1457876367@qq.com">1457876367@qq.com</a><span aria-hidden="true"> / </span><a href="#research" data-en="Research" data-zh="研究">Research</a><span aria-hidden="true"> / </span><a href="#experience" data-en="Experience" data-zh="经历">Experience</a></p></header>
+<section id="research" aria-labelledby="research-heading">
+<h2 id="research-heading" data-en="Research" data-zh="研究工作">Research</h2>
+
+<article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2610.01315" aria-label="Read the EP-Flow paper"><img src="assets/ep-flow.png" width="1007" height="500" alt="EP-Flow method: occupancy constraints, double centering, joint flow matching, and Sinkhorn recovery" loading="lazy"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2610.01315">EP-Flow: Disordered Crystal Structure Prediction without Site-Level Annotations</a></h3>
+          <p class="authors"><strong>Qiuliang Liu</strong>, Liming Wu, Qi Li, Zhonglong Peng, Chang Chen, Xiaolong Chen, Wenbing Huang, Shifeng Jin</p>
+          <p class="paper-status" data-en="NeurIPS 2026 · Accepted" data-zh="NeurIPS 2026 · 已接收">NeurIPS 2026 · Accepted</p>
+          <p data-en="Formula-conditioned generation of disordered crystal structures. EP-Flow jointly generates occupancies, atomic coordinates, and lattice parameters through flow matching with composition and site-occupancy constraints." data-zh="根据化学组成生成无序晶体结构。EP-Flow 通过带组成与位点占位约束的流匹配，联合生成占位分布、原子坐标和晶格参数。">Formula-conditioned generation of disordered crystal structures. EP-Flow jointly generates occupancies, atomic coordinates, and lattice parameters through flow matching with composition and site-occupancy constraints.</p>
+        </div>
+      </article>
+<article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2610.05844" aria-label="Read the PhaseMatcher paper"><img src="assets/phasematcher.png" width="1752" height="897" alt="PhaseMatcher progressively identifies phases and updates their spectral contributions" loading="lazy"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2610.05844">PhaseMatcher: Autoregressive Phase-Set Identification with Spectral Decomposition</a></h3>
+          <p class="authors">Zhonglong Peng, <strong>Qiuliang Liu</strong>, Chang Chen, Geng Zhong, Qi Li, Lihong Wang, Lan Jiang, Shifeng Jin</p>
+          <p class="paper-status">arXiv:2610.05844, 2026.10</p>
+          <p data-en="PhaseMatcher combines phase prediction, spectral decomposition, and stopping decisions in an autoregressive framework for multiphase PXRD analysis. Jointly updated phase contributions and residuals guide sequential phase identification." data-zh="PhaseMatcher 将物相预测、谱图分解与停止判断整合为多物相 PXRD 分析的自回归框架，通过联合更新谱图贡献与残差，逐步识别物相。">PhaseMatcher combines phase prediction, spectral decomposition, and stopping decisions in an autoregressive framework for multiphase PXRD analysis. Jointly updated phase contributions and residuals guide sequential phase identification.</p>
+        </div>
+      </article>
+<article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2610.05843" aria-label="Read the AnchorPose paper"><img src="assets/anchorpose.png" width="2477" height="852" alt="AnchorPose method: anchor representation, coordinate generation, rigid reconstruction, and periodic MOF assembly"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2610.05843">AnchorPose for Geometry-Aware MOF Assembly through Meso-Grained Pose Generation</a></h3>
+          <p class="authors">Zhonglong Peng, Rui Jiao, Chang Chen, Geng Zhong, <strong>Qiuliang Liu</strong>, Shifeng Jin</p>
+          <p class="paper-status">arXiv:2610.05843, 2026.10</p>
+          <p data-en="AnchorPose generates periodic MOF assemblies using geometry-aware atomic anchors to represent building-block poses. Alternating anchor generation and rigid reconstruction preserves internal block structures while learning their spatial arrangement." data-zh="AnchorPose 利用原子锚点表征构建块的几何形状与姿态，生成周期 MOF 结构。通过交替进行锚点生成与刚体重建，在保留构建块内部结构的同时学习其空间排列。">AnchorPose generates periodic MOF assemblies using geometry-aware atomic anchors to represent building-block poses. Alternating anchor generation and rigid reconstruction preserves internal block structures while learning their spatial arrangement.</p>
+        </div>
+      </article>
+<article class="paper">
+        <a class="paper-figure" href="https://arxiv.org/abs/2609.28987" aria-label="Read the generative crystallographic phasing paper"><img src="assets/phigen.png" width="1102" height="592" alt="PhiGen method: symmetry-expanded triplet graph, phase generation, and Fourier synthesis" loading="lazy"></a>
+        <div class="paper-text">
+          <h3><a href="https://arxiv.org/abs/2609.28987">Generative crystallographic phasing through invariant relationships</a></h3>
+          <p class="authors">Qi Li, Rui Jiao, Liming Wu, Chang Chen, Tiannian Zhu, Bintang Wang, <strong>Qiuliang Liu</strong>, Zhonglong Peng, Munan Hao, YingPeng Yu, Lin Yao, Wei Ding, Mao Su, Lei Bai, Yang Liu, Hongming Weng, Wenbing Huang, Shifeng Jin, Xiaolong Chen</p>
+          <p class="paper-status">arXiv:2609.28987, 2026.09</p>
+          <p data-en="PhiGen learns origin-independent phase relationships to recover diffraction phases. It combines symmetry constraints with generative models for binary phases in centrosymmetric crystals and continuous phases in non-centrosymmetric crystals." data-zh="PhiGen 学习不依赖原点选择的相位关系，结合晶体对称性约束与生成模型，恢复中心对称晶体的二值相位和非中心对称晶体的连续相位。">PhiGen learns origin-independent phase relationships to recover diffraction phases. It combines symmetry constraints with generative models for binary phases in centrosymmetric crystals and continuous phases in non-centrosymmetric crystals.</p>
+        </div>
+      </article>
+
+
+<article class="paper">
+  <a class="paper-figure" href="https://arxiv.org/abs/2604.23758" aria-label="Read the ElementsClaw paper"><img src="assets/elementsclaw.png" alt="ElementsClaw framework combining large atomic models and language models for superconductor discovery"></a>
+  <div class="paper-text">
+    <h3><a href="https://arxiv.org/abs/2604.23758">Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductor Discovery</a></h3>
+    <p class="authors">Mingze Li, Yu Rong, Songyou Li, Lihong Wang, Jiacheng Cen, Liming Wu, Anyi Li, Zongzhao Li, <strong>Qiuliang Liu</strong>, Rui Jiao, Tian Bian, Pengju Wang, Hao Sun, Jianfeng Zhang, Ji-Rong Wen, Deli Zhao, Shifeng Jin, Tingyang Xu, Wenbing Huang</p>
+    <p class="paper-status">arXiv:2604.23758, 2026.04</p>
+    <p data-en="ElementsClaw combines large atomic models with language-model reasoning for superconductor discovery. It screens 2.4 million crystals to identify 68,000 high-confidence candidates and guides experimental verification of four new superconductors." data-zh="ElementsClaw 结合大原子模型与大语言模型推理，辅助超导材料发现。该框架从 240 万个晶体中筛选出 6.8 万个高置信度候选，并指导实验验证了四种新超导体。">ElementsClaw combines large atomic models with language-model reasoning for superconductor discovery. It screens 2.4 million crystals to identify 68,000 high-confidence candidates and guides experimental verification of four new superconductors.</p>
+  </div>
+</article>
+</section>
+<section id="software" aria-labelledby="software-heading">
+<h2 id="software-heading" data-en="Scientific data and software" data-zh="科学数据与软件">Scientific data and software</h2>
+<div class="software-entry"><h3 data-en="Crystal Structure and Diffraction Database" data-zh="晶体结构与衍射数据库">Crystal Structure and Diffraction Database</h3><p class="paper-status" data-en="2024.09–2025.03 · Backend developer / Core contributor" data-zh="2024.09–2025.03 · 后端研发工程师 / 核心开发者">2024.09–2025.03 · Backend developer / Core contributor</p><p data-en="At the CAS Condensed Matter Physics Data Center, I developed data cleaning and ingestion pipelines for over 100,000 crystal structure and diffraction records. My contributions included storage modeling, consistency checks, and query and index optimization for multidimensional crystallographic searches." data-zh="参与中国科学院凝聚态物质科学数据中心的晶体结构与衍射数据库建设，开发数据清洗与导入管线，完成 10 万余条晶体结构及衍射数据的结构化入库。负责存储建模、一致性校验，以及面向晶体学多条件检索的查询与索引优化。">At the CAS Condensed Matter Physics Data Center, I developed data cleaning and ingestion pipelines for over 100,000 crystal structure and diffraction records. My contributions included storage modeling, consistency checks, and query and index optimization for multidimensional crystallographic searches.</p></div>
+</section>
+<section id="experience" aria-labelledby="experience-heading">
+<h2 id="experience-heading" data-en="Research collaborations" data-zh="科研合作经历">Research collaborations</h2>
+<div class="experience-entry"><h3 data-en="Scientific agents for superconducting materials" data-zh="超导材料科研智能体">Scientific agents for superconducting materials</h3><p data-en="I participate in a collaboration between the Institute of Physics, CAS, Renmin University of China, and Alibaba DAMO Academy, exploring LLM-driven multi-agent approaches for superconducting materials research." data-zh="参与中科院物理所、中国人民大学与阿里达摩院的合作项目，探索大语言模型驱动的多智能体协同在超导材料研究中的应用。">I participate in a collaboration between the Institute of Physics, CAS, Renmin University of China, and Alibaba DAMO Academy, exploring LLM-driven multi-agent approaches for superconducting materials research.</p></div><div class="experience-entry"><h3 data-en="AI modeling for pulsed laser deposition" data-zh="超导带材 PLD 工艺 AI 建模">AI modeling for pulsed laser deposition</h3><p data-en="At the Institute of Physics in Huairou, I develop deep-learning models for pulsed laser deposition (PLD) processes in superconducting tape fabrication." data-zh="参与物理所怀柔的超导带材研究，负责脉冲激光沉积（PLD）工艺的深度学习模型开发。">At the Institute of Physics in Huairou, I develop deep-learning models for pulsed laser deposition (PLD) processes in superconducting tape fabrication.</p></div>
+</section>
+<section id="education" aria-labelledby="education-heading">
+<h2 id="education-heading" data-en="Education" data-zh="教育经历">Education</h2>
+
+<div class="education-entry"><div class="entry-heading"><h3 data-en="University of Chinese Academy of Sciences" data-zh="中国科学院大学">University of Chinese Academy of Sciences</h3><span class="date" data-en="2024–present" data-zh="2024 年至今">2024–present</span></div><p data-en="Master’s program in Artificial Intelligence. Research training at the Institute of Physics, CAS." data-zh="人工智能硕士研究生，在中国科学院物理研究所培养。">Master’s program in Artificial Intelligence. Research training at the Institute of Physics, CAS.</p></div>
+<div class="education-entry"><div class="entry-heading"><h3 data-en="Central South University of Forestry and Technology" data-zh="中南林业科技大学">Central South University of Forestry and Technology</h3><span class="date">2017–2021</span></div><p data-en="Bachelor’s degree in Forest Engineering." data-zh="森林工程本科。">Bachelor’s degree in Forest Engineering.</p></div>
+</section>
+
+</main>
+</body>
+</html>
