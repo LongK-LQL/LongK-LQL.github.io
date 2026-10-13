@@ -6,4 +6,4 @@
 
 I am a master's student in Artificial Intelligence at the University of Chinese Academy of Sciences, conducting research at the Institute of Physics, CAS. **I expect to graduate in 2027.** My research focuses on AI for Science, disordered crystal structure prediction, and physically constrained generative models.
 
-联系邮箱 / Email: [liuqiuliang24@mails.ucas.ac.cn](mailto:liuqiuliang24@mails.ucas.ac.cn)
+联系邮箱 / Email: [liuqiuliang24@mails.ucas.ac.cn](mailto:liuqiuliang24@mails.ucas.ac.cn) / [1457876367@qq.com]
